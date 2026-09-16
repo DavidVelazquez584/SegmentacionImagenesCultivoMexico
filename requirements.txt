@@ -1,0 +1,18 @@
+# Dependencias sugeridas para fases posteriores del proyecto.
+# Instalar cuando se inicie la implementación real del pipeline.
+
+albumentations
+jupyter
+matplotlib
+numpy
+opencv-python
+pandas
+pillow
+pytest
+pyyaml
+rasterio
+scikit-learn
+segmentation-models-pytorch
+torch
+torchvision
+tqdm

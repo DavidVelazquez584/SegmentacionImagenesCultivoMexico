@@ -1,0 +1,35 @@
+{
+  "zona": "Ejemplo de parcela agricola en Mexico",
+  "fuente": "resultado_simulado_fase_1",
+  "fecha_inicio": "pendiente",
+  "fecha_fin": "pendiente",
+  "unidad_area": "hectareas",
+  "resumen_cultivos": [
+    {
+      "cultivo": "maiz",
+      "area": 18.4,
+      "porcentaje": 63.9,
+      "confianza_promedio": 0.86,
+      "parcelas_detectadas": 12
+    },
+    {
+      "cultivo": "trigo",
+      "area": 7.2,
+      "porcentaje": 25.0,
+      "confianza_promedio": 0.79,
+      "parcelas_detectadas": 5
+    },
+    {
+      "cultivo": "sin cultivo aparente",
+      "area": 3.2,
+      "porcentaje": 11.1,
+      "confianza_promedio": 0.71,
+      "parcelas_detectadas": 3
+    }
+  ],
+  "observaciones": [
+    "Las clases y superficies son ilustrativas.",
+    "En una fase posterior deben calcularse desde mascaras o predicciones reales.",
+    "Los resultados deben validarse con datos de campo o etiquetas confiables."
+  ]
+}

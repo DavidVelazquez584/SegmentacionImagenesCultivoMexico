@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Entornos locales
+.venv/
+venv/
+.env
+.env.*
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Datos y artefactos pesados
+data/raw/*
+data/interim/*
+data/processed/*
+data/external/*
+data/masks/*
+models/checkpoints/*
+reports/figures/*
+reports/metrics/*
+third_party/*
+
+# Mantener marcadores de carpetas
+!data/**/.gitkeep
+!models/checkpoints/.gitkeep
+!reports/figures/.gitkeep
+!reports/metrics/.gitkeep
+!third_party/.gitkeep
+
+# Sistema operativo
+.DS_Store

@@ -1,0 +1,27 @@
+project:
+  name: segmentacion_cultivos_mx
+  phase: fase_1
+
+paths:
+  raw_data: data/raw
+  masks: data/masks
+  processed_data: data/processed
+  checkpoints: models/checkpoints
+  reports: reports
+
+data:
+  image_size: [256, 256]
+  train_ratio: 0.7
+  validation_ratio: 0.15
+  test_ratio: 0.15
+
+model:
+  architecture: unet
+  encoder: pendiente
+  num_classes: 1
+
+training:
+  batch_size: 8
+  epochs: 25
+  learning_rate: 0.0001
+  seed: 42
