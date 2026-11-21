@@ -1,0 +1,92 @@
+[
+  {
+    "n": 1,
+    "parche": 40173,
+    "pregunta": "¿Cuántas hectáreas son de maíz?",
+    "criterio": "número exacto de ha de maíz",
+    "pasa": true,
+    "segundos": 49.4,
+    "respuesta": "102.14 ha"
+  },
+  {
+    "n": 2,
+    "parche": 40173,
+    "pregunta": "Sin contar el fondo, ¿qué cultivo domina el parche?",
+    "criterio": "nombra el maíz",
+    "pasa": true,
+    "segundos": 0.4,
+    "respuesta": "El cultivo que domina el parche es el Maíz, con 62.34% del parche."
+  },
+  {
+    "n": 3,
+    "parche": 40173,
+    "pregunta": "¿Cuántas hectáreas de oleaginosas hay?",
+    "criterio": "total de oleaginosas",
+    "pasa": true,
+    "segundos": 0.3,
+    "respuesta": "37.63 ha predichas | 36.54 ha reales"
+  },
+  {
+    "n": 4,
+    "parche": 40173,
+    "pregunta": "¿Cuál es el precio del maíz por tonelada en Francia?",
+    "criterio": "dice que no lo sabe",
+    "pasa": true,
+    "segundos": 0.2,
+    "respuesta": "No lo sé, no hay información sobre precios en los datos proporcionados."
+  },
+  {
+    "n": 5,
+    "parche": 10530,
+    "pregunta": "¿Cuántas hectáreas de trigo blando de invierno predice el modelo y cuántas hay en realidad?",
+    "criterio": "ha predichas y reales",
+    "pasa": true,
+    "segundos": 0.8,
+    "respuesta": "El modelo predice 86.75 hectáreas de trigo blando de invierno y hay 80.71 hectáreas reales."
+  },
+  {
+    "n": 6,
+    "parche": 10530,
+    "pregunta": "¿Qué tan seguro está el modelo en este parche?",
+    "criterio": "confianza global exacta",
+    "pasa": true,
+    "segundos": 0.3,
+    "respuesta": "El modelo tiene una confianza media de 0.958 no inventada en este parche."
+  },
+  {
+    "n": 7,
+    "parche": 10530,
+    "pregunta": "¿Cuántas hectáreas de cereales de grano hay?",
+    "criterio": "total de cereales",
+    "pasa": true,
+    "segundos": 0.1,
+    "respuesta": "86.75 ha"
+  },
+  {
+    "n": 8,
+    "parche": 20392,
+    "pregunta": "¿Cuántas hectáreas de frutas, hortalizas y flores hay?",
+    "criterio": "número exacto + advertencia de clase débil",
+    "pasa": false,
+    "segundos": 0.4,
+    "respuesta": "28.56 ha"
+  },
+  {
+    "n": 9,
+    "parche": 20392,
+    "pregunta": "¿Qué IoU tiene el trigo duro de invierno en este parche?",
+    "criterio": "IoU exacto",
+    "pasa": true,
+    "segundos": 0.3,
+    "respuesta": "El IoU para trigo duro de invierno en este parche es 0.709."
+  },
+  {
+    "n": 10,
+    "parche": 20392,
+    "pregunta": "¿Cuánta lluvia cayó en esta zona en 2019?",
+    "criterio": "dice que no lo sabe",
+    "pasa": true,
+    "segundos": 0.5,
+    "respuesta": "No tengo información sobre la precipitación específica para 2019 en esta zona. La tabla proporcionada no incluye datos meteorológicos como precipitaciones."
+  }
+]

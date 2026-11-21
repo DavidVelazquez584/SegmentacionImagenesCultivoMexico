@@ -1,0 +1,92 @@
+[
+  {
+    "n": 1,
+    "parche": 40173,
+    "pregunta": "¿Cuántas hectáreas son de maíz?",
+    "criterio": "número exacto de ha de maíz",
+    "pasa": true,
+    "segundos": 4.4,
+    "respuesta": "Según el modelo, en este parche hay **102.14 ha de maíz**, el **62.34 %** del área total. Es el cultivo dominante.\n\n- **Confianza media:** 0.971 (muy alta).\n- **Calidad en este parche:** IoU de 0.936, una coincidencia muy buena con la etiqueta real.\n- **Hectáreas reales según la referencia:** 85.73 ha.\n\n¿Por qué la cifra predicha es mayor? La referencia tiene **14.40 ha sin etiqueta** (parcelas que no clasificó). El modelo sí asigna un cultivo a esos píxeles, así que es normal que las hectáreas predichas superen a las reales aunque el IoU sea alto.\n\nRecuerda que son estimaciones del modelo a partir de imágenes satelitales, no mediciones de campo."
+  },
+  {
+    "n": 2,
+    "parche": 40173,
+    "pregunta": "Sin contar el fondo, ¿qué cultivo domina el parche?",
+    "criterio": "nombra el maíz",
+    "pasa": true,
+    "segundos": 3.5,
+    "respuesta": "El **maíz** domina claramente el parche:\n\n- **102.14 ha predichas**, el **62.34 %** del parche.\n- **Confianza media alta:** 0.971.\n- **Buen acierto:** IoU de 0.936 frente a la etiqueta real.\n\nLe siguen, muy por detrás, la **soya** (21.01 ha) y el **girasol** (16.62 ha).\n\nLa referencia real marca 85.73 ha de maíz, menos que lo predicho. La explicación principal es que hay **14.40 ha sin etiqueta** en la referencia. El modelo sí les asigna un cultivo, pero esos píxeles no cuentan como maíz en la etiqueta real.\n\nLas hectáreas son estimaciones del modelo, no mediciones de campo."
+  },
+  {
+    "n": 3,
+    "parche": 40173,
+    "pregunta": "¿Cuántas hectáreas de oleaginosas hay?",
+    "criterio": "total de oleaginosas",
+    "pasa": true,
+    "segundos": 5.1,
+    "respuesta": "**Oleaginosas en el parche 40173:**\n\n- **Predichas por el modelo:** 37.63 ha\n- **Reales (etiqueta de referencia):** 36.54 ha\n\n**Desglose de lo predicho:**\n\n| Cultivo | Ha predichas | Ha reales | IoU | Confianza media |\n|---|---|---|---|---|\n| Soya | 21.01 | 21.55 | 0.921 | 0.975 |\n| Girasol | 16.62 | 14.99 | 0.884 | 0.981 |\n\nNo se detectó colza en este parche.\n\nNinguno de los dos cultivos es una clase débil, ambos tienen confianza alta y su IoU es bueno, así que estas cifras son bastante confiables.\n\nLa cifra predicha es algo mayor que la real porque hay **14.40 ha sin etiqueta** en la referencia. El modelo sí les asigna un cultivo, pero la etiqueta real no las cuenta.\n\nRecuerda que son estimaciones del modelo, no mediciones de campo. 🌻"
+  },
+  {
+    "n": 4,
+    "parche": 40173,
+    "pregunta": "¿Cuál es el precio del maíz por tonelada en Francia?",
+    "criterio": "dice que no lo sabe",
+    "pasa": true,
+    "segundos": 3.6,
+    "respuesta": "No tengo información sobre precios. Solo cuento con datos de este parche satelital (ID 40173), y no incluyen precios de mercado, rendimientos en toneladas ni datos económicos.\n\nLo que sí puedo decirte del maíz en este parche:\n\n- **Hectáreas predichas:** 102.14 ha (62.34 % del parche), con una confianza media de 0.971.\n- **Hectáreas reales (referencia):** 85.73 ha, con un IoU de 0.936.\n- La diferencia se debe sobre todo a las 14.40 ha sin etiqueta en la referencia. El modelo sí les asigna un cultivo, pero la etiqueta real no.\n\nRecuerda que son estimaciones del modelo, no mediciones de campo. Para el precio del maíz te recomiendo consultar fuentes como FranceAgriMer o las cotizaciones de Euronext."
+  },
+  {
+    "n": 5,
+    "parche": 10530,
+    "pregunta": "¿Cuántas hectáreas de trigo blando de invierno predice el modelo y cuántas hay en realidad?",
+    "criterio": "ha predichas y reales",
+    "pasa": true,
+    "segundos": 3.8,
+    "respuesta": "**Trigo blando de invierno:**\n\n- **Predicho por el modelo:** 86.75 ha (52.95 % del parche)\n- **Según la etiqueta real:** 80.71 ha\n\nLa predicción es muy fiable: el **IoU en este parche es 0.970** y la **confianza media es 0.987**.\n\n**¿Por qué el modelo predice más de lo que marca la referencia?** Este parche tiene **34.85 ha sin etiqueta** (píxeles \"Void\"), parcelas que la referencia no clasificó. El modelo sí les asigna un cultivo, así que es normal que sus hectáreas superen a las reales aunque el IoU sea alto.\n\nRecuerda que estas hectáreas son estimaciones del modelo, no mediciones de campo. 🌾"
+  },
+  {
+    "n": 6,
+    "parche": 10530,
+    "pregunta": "¿Qué tan seguro está el modelo en este parche?",
+    "criterio": "confianza global exacta",
+    "pasa": true,
+    "segundos": 5.9,
+    "respuesta": "En general, **muy seguro**: la **confianza media global es de 0.958**.\n\n**Clases con mayor seguridad**\n- Trigo blando de invierno: 0.987\n- Papa: 0.980\n- Remolacha: 0.975\n- Colza de invierno: 0.973\n- Maíz: 0.952\n\n**Clases con algo menos de seguridad**\n- Fondo: 0.910\n- Pradera: 0.864\n\n⚠️ **Atención:** el **Forraje leguminoso** tiene una confianza de solo **0.465** y es una **clase débil** del modelo (IoU global de 0.37). Además, abarca apenas 0.03 ha y la referencia no tiene nada de esa clase en el parche (IoU de 0.000). Conviene tomar esa predicción con mucha cautela.\n\n**Confianza no es lo mismo que acierto.** La confianza indica qué tan seguro \"se siente\" el modelo. Para saber si acertó, hay que ver el IoU contra la etiqueta real. Este parche nunca se usó en el entrenamiento, así que esa comparación es una evaluación honesta. Aquí sí hubo buenos aciertos, por ejemplo:\n- Trigo blando de invierno: IoU de 0.970\n- Papa: IoU de 0.948\n\n¿Quieres que revisemos alguna clase en particular?"
+  },
+  {
+    "n": 7,
+    "parche": 10530,
+    "pregunta": "¿Cuántas hectáreas de cereales de grano hay?",
+    "criterio": "total de cereales",
+    "pasa": true,
+    "segundos": 3.3,
+    "respuesta": "Según el modelo, en este parche hay **86.75 ha de cereales de grano**. Todo corresponde a **trigo blando de invierno**, la única clase del grupo presente.\n\n- **Confianza media:** 0.987\n- **IoU en este parche:** 0.970, muy buena coincidencia con la etiqueta real\n- **Hectáreas reales (referencia):** 80.71 ha\n\n**¿Por qué el modelo predice más que la referencia?** El parche tiene **34.85 ha sin etiqueta** en la referencia. El modelo sí les asigna un cultivo, así que es normal que sus hectáreas superen a las reales aunque el IoU sea alto.\n\nRecuerda que estas cifras son estimaciones del modelo, no mediciones de campo."
+  },
+  {
+    "n": 8,
+    "parche": 20392,
+    "pregunta": "¿Cuántas hectáreas de frutas, hortalizas y flores hay?",
+    "criterio": "número exacto + advertencia de clase débil",
+    "pasa": true,
+    "segundos": 2.8,
+    "respuesta": "Según el modelo, en este parche hay **28.56 ha** de frutas, hortalizas y flores (el **17.43 %** del parche).\n\nComo referencia, la etiqueta real indica **30.61 ha** para esta clase, y el IoU en este parche es de **0.561**.\n\n⚠️ **Advertencia:** *Frutas, hortalizas y flores* es una **clase débil** del modelo (IoU global de 0.41), así que sus predicciones son poco confiables. En este parche la confianza media es de 0.868, pero conviene tomar la cifra con cautela.\n\nRecuerda que estas hectáreas son una estimación del modelo a partir de imágenes satelitales, no una medición de campo. 🌱"
+  },
+  {
+    "n": 9,
+    "parche": 20392,
+    "pregunta": "¿Qué IoU tiene el trigo duro de invierno en este parche?",
+    "criterio": "IoU exacto",
+    "pasa": true,
+    "segundos": 2.4,
+    "respuesta": "En este parche, el **trigo duro de invierno** tiene un **IoU de 0.709**.\n\nEs uno de los mejores resultados del parche:\n- **Confianza media:** 0.905, alta.\n- **No es clase débil.**\n- **Hectáreas predichas:** 29.97 ha, frente a 32.29 ha reales.\n\nComo este parche es del conjunto de prueba (fold 5), el modelo no lo vio al entrenar, así que es una evaluación honesta. Recuerda que las hectáreas son estimaciones del modelo, no mediciones de campo."
+  },
+  {
+    "n": 10,
+    "parche": 20392,
+    "pregunta": "¿Cuánta lluvia cayó en esta zona en 2019?",
+    "criterio": "dice que no lo sabe",
+    "pasa": true,
+    "segundos": 2.7,
+    "respuesta": "No tengo esa información. Mis datos solo incluyen la clasificación de cultivos de este parche (ID 20392) a partir de imágenes Sentinel-2. No cuento con datos de clima ni de lluvia.\n\nPara conocer la precipitación de 2019 en esa zona de Francia, te sugiero consultar fuentes meteorológicas como Météo-France o bases de datos climáticas como ERA5 de Copernicus.\n\nSi quieres, te puedo explicar qué cultivos detectó el modelo en este parche, cuántas hectáreas estimó para cada uno o qué tan confiables son esas predicciones. 🌱"
+  }
+]

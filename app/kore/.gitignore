@@ -1,0 +1,7 @@
+# Datos pesados o locales de Koré (se regeneran con preparar_datos.py)
+datos/ejemplos/
+pruebas/cache_prob/
+.gradio/
+# Credenciales temporales del enlace público: nunca al repositorio
+acceso_demo_temporal.txt
+.env

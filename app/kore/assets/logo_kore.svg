@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Koré: granada">
+  <defs>
+    <radialGradient id="kg-piel" cx="38%" cy="34%" r="70%">
+      <stop offset="0" stop-color="#E0485A"/>
+      <stop offset="0.55" stop-color="#B3263E"/>
+      <stop offset="1" stop-color="#6E1426"/>
+    </radialGradient>
+    <linearGradient id="kg-hoja" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#43A047"/>
+      <stop offset="1" stop-color="#1B4D2E"/>
+    </linearGradient>
+  </defs>
+  <!-- hoja -->
+  <path d="M35 15 C41 6, 52 5, 57 8 C53 15, 44 19, 36 18 Z" fill="url(#kg-hoja)"/>
+  <path d="M37 17 C43 13, 49 10, 55 8.5" stroke="#E4EFE1" stroke-width="0.9" fill="none" opacity="0.7"/>
+  <!-- cuerpo de la granada -->
+  <circle cx="31" cy="38" r="21" fill="url(#kg-piel)"/>
+  <!-- corona (cáliz) -->
+  <path d="M24 19 L26.5 12.5 L29 17 L31 11 L33 17 L35.5 12.5 L38 19 Q31 22.5 24 19 Z" fill="#7B1E2B"/>
+  <path d="M26 19.2 Q31 21 36 19.2" stroke="#E0A526" stroke-width="1" fill="none" opacity="0.8"/>
+  <!-- abertura con semillas (arilos) -->
+  <path d="M33 42 Q42 33 49 41 Q47 53 37 55 Q31 50 33 42 Z" fill="#F6E3C8"/>
+  <g fill="#D6304A">
+    <ellipse cx="38.5" cy="42.5" rx="2.1" ry="2.5"/>
+    <ellipse cx="43.5" cy="42" rx="2.1" ry="2.5"/>
+    <ellipse cx="36.5" cy="47.5" rx="2.1" ry="2.5"/>
+    <ellipse cx="41.5" cy="47.3" rx="2.1" ry="2.5"/>
+    <ellipse cx="46" cy="46.5" rx="1.9" ry="2.3"/>
+    <ellipse cx="39.5" cy="52" rx="2" ry="2.3"/>
+    <ellipse cx="44" cy="51" rx="1.9" ry="2.2"/>
+  </g>
+  <g fill="#FFFFFF" opacity="0.55">
+    <circle cx="37.8" cy="41.6" r="0.6"/><circle cx="42.8" cy="41.1" r="0.6"/><circle cx="35.8" cy="46.6" r="0.6"/>
+    <circle cx="40.8" cy="46.4" r="0.6"/><circle cx="45.4" cy="45.7" r="0.55"/><circle cx="38.8" cy="51.2" r="0.55"/>
+  </g>
+  <!-- brillo -->
+  <ellipse cx="22" cy="31" rx="5" ry="7.5" fill="#FFFFFF" opacity="0.18" transform="rotate(-25 22 31)"/>
+</svg>

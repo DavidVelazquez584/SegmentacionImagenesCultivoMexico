@@ -1,0 +1,92 @@
+[
+  {
+    "n": 1,
+    "parche": 40173,
+    "pregunta": "¿Cuántas hectáreas son de maíz?",
+    "criterio": "número exacto de ha de maíz",
+    "pasa": true,
+    "segundos": 0.0,
+    "respuesta": "_Modo de prueba: no hay un LLM conectado._ Esta es la información que Koré le pasa al modelo de lenguaje:\n\nTABLA POR CLASE (solo clases presentes)\n| Clase | Hectáreas predichas | % del parche | Confianza media | Clase débil | Hectáreas reales | IoU en este parche |\n|---|---|---|---|---|---|---|\n| Maíz | 102.14 | 62.34 % | 0.971 | no | 85.73 | 0.936 |\n| Fondo | 22.03 | 13.45 % | 0.903 | no | 22.33 | 0.709 |\n| Soya | 21.01 | 12.82 % | 0.975 | no | 21.55 | 0.921 |\n| Girasol | 16.62 | 10.14 % | 0.981 | no | 14.99 | 0.884 |\n| Trigo blando de invierno | 1.60 | 0.98 % | 0.969 | no | 0.00 | 0.000 |\n| Frutas, hortalizas y flores | 0.44 | 0.27 % | 0.489 | sí | 3.17 | 0.132 |\n| Pradera | 0.00 | 0.00 % | — | no | 1.67 | 0.000 |\n\nTOTALES POR GRUPO\n- Cereales de grano (trigo blando, trigo duro, cebadas, triticale, cereal mixto): 1.60 ha predichas | 0.00 ha reales\n- Oleaginosas (colza, girasol, soya): 37.63 ha predichas | 36.54 ha reales\n- Forrajes y praderas (pradera, forraje leguminoso): 0.00 ha predichas | 1.67 ha reales\n- Cultivos permanentes (vid, huerto): 0.00 ha predichas | 0.00 ha reales\n- Todas las clases agrícolas (todo menos Fondo): 141.81 ha predichas | 127.11 ha reales"
+  },
+  {
+    "n": 2,
+    "parche": 40173,
+    "pregunta": "Sin contar el fondo, ¿qué cultivo domina el parche?",
+    "criterio": "nombra el maíz",
+    "pasa": true,
+    "segundos": 0.0,
+    "respuesta": "_Modo de prueba: no hay un LLM conectado._ Esta es la información que Koré le pasa al modelo de lenguaje:\n\nTABLA POR CLASE (solo clases presentes)\n| Clase | Hectáreas predichas | % del parche | Confianza media | Clase débil | Hectáreas reales | IoU en este parche |\n|---|---|---|---|---|---|---|\n| Maíz | 102.14 | 62.34 % | 0.971 | no | 85.73 | 0.936 |\n| Fondo | 22.03 | 13.45 % | 0.903 | no | 22.33 | 0.709 |\n| Soya | 21.01 | 12.82 % | 0.975 | no | 21.55 | 0.921 |\n| Girasol | 16.62 | 10.14 % | 0.981 | no | 14.99 | 0.884 |\n| Trigo blando de invierno | 1.60 | 0.98 % | 0.969 | no | 0.00 | 0.000 |\n| Frutas, hortalizas y flores | 0.44 | 0.27 % | 0.489 | sí | 3.17 | 0.132 |\n| Pradera | 0.00 | 0.00 % | — | no | 1.67 | 0.000 |\n\nTOTALES POR GRUPO\n- Cereales de grano (trigo blando, trigo duro, cebadas, triticale, cereal mixto): 1.60 ha predichas | 0.00 ha reales\n- Oleaginosas (colza, girasol, soya): 37.63 ha predichas | 36.54 ha reales\n- Forrajes y praderas (pradera, forraje leguminoso): 0.00 ha predichas | 1.67 ha reales\n- Cultivos permanentes (vid, huerto): 0.00 ha predichas | 0.00 ha reales\n- Todas las clases agrícolas (todo menos Fondo): 141.81 ha predichas | 127.11 ha reales"
+  },
+  {
+    "n": 3,
+    "parche": 40173,
+    "pregunta": "¿Cuántas hectáreas de oleaginosas hay?",
+    "criterio": "total de oleaginosas",
+    "pasa": true,
+    "segundos": 0.0,
+    "respuesta": "_Modo de prueba: no hay un LLM conectado._ Esta es la información que Koré le pasa al modelo de lenguaje:\n\nTABLA POR CLASE (solo clases presentes)\n| Clase | Hectáreas predichas | % del parche | Confianza media | Clase débil | Hectáreas reales | IoU en este parche |\n|---|---|---|---|---|---|---|\n| Maíz | 102.14 | 62.34 % | 0.971 | no | 85.73 | 0.936 |\n| Fondo | 22.03 | 13.45 % | 0.903 | no | 22.33 | 0.709 |\n| Soya | 21.01 | 12.82 % | 0.975 | no | 21.55 | 0.921 |\n| Girasol | 16.62 | 10.14 % | 0.981 | no | 14.99 | 0.884 |\n| Trigo blando de invierno | 1.60 | 0.98 % | 0.969 | no | 0.00 | 0.000 |\n| Frutas, hortalizas y flores | 0.44 | 0.27 % | 0.489 | sí | 3.17 | 0.132 |\n| Pradera | 0.00 | 0.00 % | — | no | 1.67 | 0.000 |\n\nTOTALES POR GRUPO\n- Cereales de grano (trigo blando, trigo duro, cebadas, triticale, cereal mixto): 1.60 ha predichas | 0.00 ha reales\n- Oleaginosas (colza, girasol, soya): 37.63 ha predichas | 36.54 ha reales\n- Forrajes y praderas (pradera, forraje leguminoso): 0.00 ha predichas | 1.67 ha reales\n- Cultivos permanentes (vid, huerto): 0.00 ha predichas | 0.00 ha reales\n- Todas las clases agrícolas (todo menos Fondo): 141.81 ha predichas | 127.11 ha reales"
+  },
+  {
+    "n": 4,
+    "parche": 40173,
+    "pregunta": "¿Cuál es el precio del maíz por tonelada en Francia?",
+    "criterio": "dice que no lo sabe",
+    "pasa": false,
+    "segundos": 0.0,
+    "respuesta": "_Modo de prueba: no hay un LLM conectado._ Esta es la información que Koré le pasa al modelo de lenguaje:\n\nTABLA POR CLASE (solo clases presentes)\n| Clase | Hectáreas predichas | % del parche | Confianza media | Clase débil | Hectáreas reales | IoU en este parche |\n|---|---|---|---|---|---|---|\n| Maíz | 102.14 | 62.34 % | 0.971 | no | 85.73 | 0.936 |\n| Fondo | 22.03 | 13.45 % | 0.903 | no | 22.33 | 0.709 |\n| Soya | 21.01 | 12.82 % | 0.975 | no | 21.55 | 0.921 |\n| Girasol | 16.62 | 10.14 % | 0.981 | no | 14.99 | 0.884 |\n| Trigo blando de invierno | 1.60 | 0.98 % | 0.969 | no | 0.00 | 0.000 |\n| Frutas, hortalizas y flores | 0.44 | 0.27 % | 0.489 | sí | 3.17 | 0.132 |\n| Pradera | 0.00 | 0.00 % | — | no | 1.67 | 0.000 |\n\nTOTALES POR GRUPO\n- Cereales de grano (trigo blando, trigo duro, cebadas, triticale, cereal mixto): 1.60 ha predichas | 0.00 ha reales\n- Oleaginosas (colza, girasol, soya): 37.63 ha predichas | 36.54 ha reales\n- Forrajes y praderas (pradera, forraje leguminoso): 0.00 ha predichas | 1.67 ha reales\n- Cultivos permanentes (vid, huerto): 0.00 ha predichas | 0.00 ha reales\n- Todas las clases agrícolas (todo menos Fondo): 141.81 ha predichas | 127.11 ha reales"
+  },
+  {
+    "n": 5,
+    "parche": 10530,
+    "pregunta": "¿Cuántas hectáreas de trigo blando de invierno predice el modelo y cuántas hay en realidad?",
+    "criterio": "ha predichas y reales",
+    "pasa": true,
+    "segundos": 0.0,
+    "respuesta": "_Modo de prueba: no hay un LLM conectado._ Esta es la información que Koré le pasa al modelo de lenguaje:\n\nTABLA POR CLASE (solo clases presentes)\n| Clase | Hectáreas predichas | % del parche | Confianza media | Clase débil | Hectáreas reales | IoU en este parche |\n|---|---|---|---|---|---|---|\n| Trigo blando de invierno | 86.75 | 52.95 % | 0.987 | no | 80.71 | 0.970 |\n| Fondo | 37.76 | 23.05 % | 0.910 | no | 12.34 | 0.657 |\n| Pradera | 10.10 | 6.16 % | 0.864 | no | 13.23 | 0.716 |\n| Maíz | 9.71 | 5.93 % | 0.952 | no | 7.77 | 0.812 |\n| Colza de invierno | 7.91 | 4.83 % | 0.973 | no | 5.47 | 0.800 |\n| Papa | 5.86 | 3.58 % | 0.980 | no | 4.82 | 0.948 |\n| Remolacha | 5.72 | 3.49 % | 0.975 | no | 4.65 | 0.900 |\n| Forraje leguminoso | 0.03 | 0.02 % | 0.465 | sí | 0.00 | 0.000 |\n\nTOTALES POR GRUPO\n- Cereales de grano (trigo blando, trigo duro, cebadas, triticale, cereal mixto): 86.75 ha predichas | 80.71 ha reales\n- Oleaginosas (colza, girasol, soya): 7.91 ha predichas | 5.47 ha reales\n- Forrajes y praderas (pradera, forraje leguminoso): 10.13 ha predichas | 13.23 ha reales\n- Cultivos permanentes (vid, huerto): 0.00 ha predichas | 0.00 ha reales\n- Todas las clases agrícolas (todo menos Fondo): 126.08 ha predichas | 116.65 ha reales"
+  },
+  {
+    "n": 6,
+    "parche": 10530,
+    "pregunta": "¿Qué tan seguro está el modelo en este parche?",
+    "criterio": "confianza global exacta",
+    "pasa": false,
+    "segundos": 0.0,
+    "respuesta": "_Modo de prueba: no hay un LLM conectado._ Esta es la información que Koré le pasa al modelo de lenguaje:\n\nTABLA POR CLASE (solo clases presentes)\n| Clase | Hectáreas predichas | % del parche | Confianza media | Clase débil | Hectáreas reales | IoU en este parche |\n|---|---|---|---|---|---|---|\n| Trigo blando de invierno | 86.75 | 52.95 % | 0.987 | no | 80.71 | 0.970 |\n| Fondo | 37.76 | 23.05 % | 0.910 | no | 12.34 | 0.657 |\n| Pradera | 10.10 | 6.16 % | 0.864 | no | 13.23 | 0.716 |\n| Maíz | 9.71 | 5.93 % | 0.952 | no | 7.77 | 0.812 |\n| Colza de invierno | 7.91 | 4.83 % | 0.973 | no | 5.47 | 0.800 |\n| Papa | 5.86 | 3.58 % | 0.980 | no | 4.82 | 0.948 |\n| Remolacha | 5.72 | 3.49 % | 0.975 | no | 4.65 | 0.900 |\n| Forraje leguminoso | 0.03 | 0.02 % | 0.465 | sí | 0.00 | 0.000 |\n\nTOTALES POR GRUPO\n- Cereales de grano (trigo blando, trigo duro, cebadas, triticale, cereal mixto): 86.75 ha predichas | 80.71 ha reales\n- Oleaginosas (colza, girasol, soya): 7.91 ha predichas | 5.47 ha reales\n- Forrajes y praderas (pradera, forraje leguminoso): 10.13 ha predichas | 13.23 ha reales\n- Cultivos permanentes (vid, huerto): 0.00 ha predichas | 0.00 ha reales\n- Todas las clases agrícolas (todo menos Fondo): 126.08 ha predichas | 116.65 ha reales"
+  },
+  {
+    "n": 7,
+    "parche": 10530,
+    "pregunta": "¿Cuántas hectáreas de cereales de grano hay?",
+    "criterio": "total de cereales",
+    "pasa": true,
+    "segundos": 0.0,
+    "respuesta": "_Modo de prueba: no hay un LLM conectado._ Esta es la información que Koré le pasa al modelo de lenguaje:\n\nTABLA POR CLASE (solo clases presentes)\n| Clase | Hectáreas predichas | % del parche | Confianza media | Clase débil | Hectáreas reales | IoU en este parche |\n|---|---|---|---|---|---|---|\n| Trigo blando de invierno | 86.75 | 52.95 % | 0.987 | no | 80.71 | 0.970 |\n| Fondo | 37.76 | 23.05 % | 0.910 | no | 12.34 | 0.657 |\n| Pradera | 10.10 | 6.16 % | 0.864 | no | 13.23 | 0.716 |\n| Maíz | 9.71 | 5.93 % | 0.952 | no | 7.77 | 0.812 |\n| Colza de invierno | 7.91 | 4.83 % | 0.973 | no | 5.47 | 0.800 |\n| Papa | 5.86 | 3.58 % | 0.980 | no | 4.82 | 0.948 |\n| Remolacha | 5.72 | 3.49 % | 0.975 | no | 4.65 | 0.900 |\n| Forraje leguminoso | 0.03 | 0.02 % | 0.465 | sí | 0.00 | 0.000 |\n\nTOTALES POR GRUPO\n- Cereales de grano (trigo blando, trigo duro, cebadas, triticale, cereal mixto): 86.75 ha predichas | 80.71 ha reales\n- Oleaginosas (colza, girasol, soya): 7.91 ha predichas | 5.47 ha reales\n- Forrajes y praderas (pradera, forraje leguminoso): 10.13 ha predichas | 13.23 ha reales\n- Cultivos permanentes (vid, huerto): 0.00 ha predichas | 0.00 ha reales\n- Todas las clases agrícolas (todo menos Fondo): 126.08 ha predichas | 116.65 ha reales"
+  },
+  {
+    "n": 8,
+    "parche": 20392,
+    "pregunta": "¿Cuántas hectáreas de frutas, hortalizas y flores hay?",
+    "criterio": "número exacto + advertencia de clase débil",
+    "pasa": true,
+    "segundos": 0.0,
+    "respuesta": "_Modo de prueba: no hay un LLM conectado._ Esta es la información que Koré le pasa al modelo de lenguaje:\n\nTABLA POR CLASE (solo clases presentes)\n| Clase | Hectáreas predichas | % del parche | Confianza media | Clase débil | Hectáreas reales | IoU en este parche |\n|---|---|---|---|---|---|---|\n| Fondo | 70.46 | 43.01 % | 0.855 | no | 6.29 | 0.350 |\n| Trigo duro de invierno | 29.97 | 18.29 % | 0.905 | no | 32.29 | 0.709 |\n| Frutas, hortalizas y flores | 28.56 | 17.43 % | 0.868 | sí | 30.61 | 0.561 |\n| Pradera | 12.68 | 7.74 % | 0.554 | no | 3.22 | 0.357 |\n| Cebada de invierno | 11.77 | 7.18 % | 0.890 | no | 0.00 | 0.000 |\n| Trigo blando de invierno | 6.20 | 3.78 % | 0.951 | no | 0.00 | — |\n| Papa | 2.74 | 1.67 % | 0.689 | no | 0.00 | 0.000 |\n| Girasol | 0.82 | 0.50 % | 0.680 | no | 8.33 | 0.076 |\n| Maíz | 0.53 | 0.32 % | 0.375 | no | 0.00 | — |\n| Forraje leguminoso | 0.07 | 0.04 % | 0.381 | sí | 0.00 | 0.000 |\n| Vid | 0.02 | 0.01 % | 0.353 | no | 0.00 | 0.000 |\n| Cebada de primavera | 0.02 | 0.01 % | 0.482 | no | 0.00 | 0.000 |\n\nTOTALES POR GRUPO\n- Cereales de grano (trigo blando, trigo duro, cebadas, triticale, cereal mixto): 47.96 ha predichas | 32.29 ha reales\n- Oleaginosas (colza, girasol, soya): 0.82 ha predichas | 8.33 ha reales\n- Forrajes y praderas (pradera, forraje leguminoso): 12.75 ha predichas | 3.22 ha reales\n- Cultivos permanentes (vid, huerto): 0.02 ha predichas | 0.00 ha reales\n- Todas las clases agrícolas (todo menos Fondo): 93.38 ha predichas | 74.45 ha reales"
+  },
+  {
+    "n": 9,
+    "parche": 20392,
+    "pregunta": "¿Qué IoU tiene el trigo duro de invierno en este parche?",
+    "criterio": "IoU exacto",
+    "pasa": true,
+    "segundos": 0.0,
+    "respuesta": "_Modo de prueba: no hay un LLM conectado._ Esta es la información que Koré le pasa al modelo de lenguaje:\n\nTABLA POR CLASE (solo clases presentes)\n| Clase | Hectáreas predichas | % del parche | Confianza media | Clase débil | Hectáreas reales | IoU en este parche |\n|---|---|---|---|---|---|---|\n| Fondo | 70.46 | 43.01 % | 0.855 | no | 6.29 | 0.350 |\n| Trigo duro de invierno | 29.97 | 18.29 % | 0.905 | no | 32.29 | 0.709 |\n| Frutas, hortalizas y flores | 28.56 | 17.43 % | 0.868 | sí | 30.61 | 0.561 |\n| Pradera | 12.68 | 7.74 % | 0.554 | no | 3.22 | 0.357 |\n| Cebada de invierno | 11.77 | 7.18 % | 0.890 | no | 0.00 | 0.000 |\n| Trigo blando de invierno | 6.20 | 3.78 % | 0.951 | no | 0.00 | — |\n| Papa | 2.74 | 1.67 % | 0.689 | no | 0.00 | 0.000 |\n| Girasol | 0.82 | 0.50 % | 0.680 | no | 8.33 | 0.076 |\n| Maíz | 0.53 | 0.32 % | 0.375 | no | 0.00 | — |\n| Forraje leguminoso | 0.07 | 0.04 % | 0.381 | sí | 0.00 | 0.000 |\n| Vid | 0.02 | 0.01 % | 0.353 | no | 0.00 | 0.000 |\n| Cebada de primavera | 0.02 | 0.01 % | 0.482 | no | 0.00 | 0.000 |\n\nTOTALES POR GRUPO\n- Cereales de grano (trigo blando, trigo duro, cebadas, triticale, cereal mixto): 47.96 ha predichas | 32.29 ha reales\n- Oleaginosas (colza, girasol, soya): 0.82 ha predichas | 8.33 ha reales\n- Forrajes y praderas (pradera, forraje leguminoso): 12.75 ha predichas | 3.22 ha reales\n- Cultivos permanentes (vid, huerto): 0.02 ha predichas | 0.00 ha reales\n- Todas las clases agrícolas (todo menos Fondo): 93.38 ha predichas | 74.45 ha reales"
+  },
+  {
+    "n": 10,
+    "parche": 20392,
+    "pregunta": "¿Cuánta lluvia cayó en esta zona en 2019?",
+    "criterio": "dice que no lo sabe",
+    "pasa": false,
+    "segundos": 0.0,
+    "respuesta": "_Modo de prueba: no hay un LLM conectado._ Esta es la información que Koré le pasa al modelo de lenguaje:\n\nTABLA POR CLASE (solo clases presentes)\n| Clase | Hectáreas predichas | % del parche | Confianza media | Clase débil | Hectáreas reales | IoU en este parche |\n|---|---|---|---|---|---|---|\n| Fondo | 70.46 | 43.01 % | 0.855 | no | 6.29 | 0.350 |\n| Trigo duro de invierno | 29.97 | 18.29 % | 0.905 | no | 32.29 | 0.709 |\n| Frutas, hortalizas y flores | 28.56 | 17.43 % | 0.868 | sí | 30.61 | 0.561 |\n| Pradera | 12.68 | 7.74 % | 0.554 | no | 3.22 | 0.357 |\n| Cebada de invierno | 11.77 | 7.18 % | 0.890 | no | 0.00 | 0.000 |\n| Trigo blando de invierno | 6.20 | 3.78 % | 0.951 | no | 0.00 | — |\n| Papa | 2.74 | 1.67 % | 0.689 | no | 0.00 | 0.000 |\n| Girasol | 0.82 | 0.50 % | 0.680 | no | 8.33 | 0.076 |\n| Maíz | 0.53 | 0.32 % | 0.375 | no | 0.00 | — |\n| Forraje leguminoso | 0.07 | 0.04 % | 0.381 | sí | 0.00 | 0.000 |\n| Vid | 0.02 | 0.01 % | 0.353 | no | 0.00 | 0.000 |\n| Cebada de primavera | 0.02 | 0.01 % | 0.482 | no | 0.00 | 0.000 |\n\nTOTALES POR GRUPO\n- Cereales de grano (trigo blando, trigo duro, cebadas, triticale, cereal mixto): 47.96 ha predichas | 32.29 ha reales\n- Oleaginosas (colza, girasol, soya): 0.82 ha predichas | 8.33 ha reales\n- Forrajes y praderas (pradera, forraje leguminoso): 12.75 ha predichas | 3.22 ha reales\n- Cultivos permanentes (vid, huerto): 0.02 ha predichas | 0.00 ha reales\n- Todas las clases agrícolas (todo menos Fondo): 93.38 ha predichas | 74.45 ha reales"
+  }
+]

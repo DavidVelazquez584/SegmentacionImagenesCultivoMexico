@@ -1,0 +1,92 @@
+[
+  {
+    "n": 1,
+    "parche": 40173,
+    "pregunta": "¿Cuántas hectáreas son de maíz?",
+    "criterio": "número exacto de ha de maíz",
+    "pasa": true,
+    "segundos": 30.7,
+    "respuesta": "En este parche específico (ID 40173), el modelo predijo **102.14 hectáreas** de maíz, lo que representa el 62.34% del área total analizada. La confianza media para esta predicción es muy alta (0.971) y coincide bien con los datos reales registrados (85.73 ha), logrando un índice de coincidencia (IoU) de 0.936.\n\nRecuerda que estas cifras son estimaciones del modelo basadas en imágenes satelitales, no mediciones directas en el campo."
+  },
+  {
+    "n": 2,
+    "parche": 40173,
+    "pregunta": "Sin contar el fondo, ¿qué cultivo domina el parche?",
+    "criterio": "nombra el maíz",
+    "pasa": true,
+    "segundos": 1.7,
+    "respuesta": "El cultivo que domina el parche es el **Maíz**, con 102.14 hectáreas predichas (62.34% del área).\n\n*Nota: La confianza media para esta clase es muy alta (0.971), por lo que no hay motivo de duda.*"
+  },
+  {
+    "n": 3,
+    "parche": 40173,
+    "pregunta": "¿Cuántas hectáreas de oleaginosas hay?",
+    "criterio": "total de oleaginosas",
+    "pasa": true,
+    "segundos": 1.8,
+    "respuesta": "Según el análisis del parche ID 40173, el modelo predijo **37.63 hectáreas** de oleaginosas (que incluyen soya y girasol).\n\nSin embargo, ten en cuenta que esta es una estimación basada en imágenes satelitales y no una medición de campo real."
+  },
+  {
+    "n": 4,
+    "parche": 40173,
+    "pregunta": "¿Cuál es el precio del maíz por tonelada en Francia?",
+    "criterio": "dice que no lo sabe",
+    "pasa": true,
+    "segundos": 1.4,
+    "respuesta": "No lo sé. Soy Koré y solo tengo acceso a las estimaciones de hectáreas de este parche específico (ID 40173) en Francia, sin información sobre precios, rendimientos o condiciones climáticas."
+  },
+  {
+    "n": 5,
+    "parche": 10530,
+    "pregunta": "¿Cuántas hectáreas de trigo blando de invierno predice el modelo y cuántas hay en realidad?",
+    "criterio": "ha predichas y reales",
+    "pasa": true,
+    "segundos": 1.9,
+    "respuesta": "El modelo predice **86.75 ha** de trigo blando de invierno, mientras que en la referencia real hay **80.71 ha**. La confianza de esta predicción es muy alta (0.987) y el índice de coincidencia (IoU) para este parche es de 0.970."
+  },
+  {
+    "n": 6,
+    "parche": 10530,
+    "pregunta": "¿Qué tan seguro está el modelo en este parche?",
+    "criterio": "confianza global exacta",
+    "pasa": false,
+    "segundos": 2.1,
+    "respuesta": "El modelo tiene una **confianza media global muy alta del 95.8%** para este parche. Sin embargo, hay un detalle importante: la predicción de *forraje leguminoso* es extremadamente incierta (confianza del 46.5%), ya que esta clase se considera débil y el modelo no detectó ninguna hectárea real de ella, aunque predijo casi nada."
+  },
+  {
+    "n": 7,
+    "parche": 10530,
+    "pregunta": "¿Cuántas hectáreas de cereales de grano hay?",
+    "criterio": "total de cereales",
+    "pasa": true,
+    "segundos": 1.6,
+    "respuesta": "Según los datos del parche ID 10530, hay **86.75 hectáreas** predichas de cereales de grano (específicamente trigo blando de invierno).\n\n*Nota: Esta cifra es una estimación del modelo y no una medición de campo.*"
+  },
+  {
+    "n": 8,
+    "parche": 20392,
+    "pregunta": "¿Cuántas hectáreas de frutas, hortalizas y flores hay?",
+    "criterio": "número exacto + advertencia de clase débil",
+    "pasa": true,
+    "segundos": 2.4,
+    "respuesta": "Según el modelo, hay **28.56 hectáreas** predichas de frutas, hortalizas y flores en este parche.\n\n⚠️ **Advertencia:** Esta es una clase débil con una confianza media baja (0.868) y un índice de coincidencia (IoU) del 0.561, por lo que la predicción podría no ser muy precisa."
+  },
+  {
+    "n": 9,
+    "parche": 20392,
+    "pregunta": "¿Qué IoU tiene el trigo duro de invierno en este parche?",
+    "criterio": "IoU exacto",
+    "pasa": true,
+    "segundos": 1.7,
+    "respuesta": "El Índice de Similitud (IoU) del **Trigo duro de invierno** en este parche es **0.709**.\n\nEste valor indica una predicción bastante confiable para esta clase, ya que no se considera una clase débil y su confianza media es alta (0.905)."
+  },
+  {
+    "n": 10,
+    "parche": 20392,
+    "pregunta": "¿Cuánta lluvia cayó en esta zona en 2019?",
+    "criterio": "dice que no lo sabe",
+    "pasa": false,
+    "segundos": 1.5,
+    "respuesta": "Lo siento, Koré no tiene información sobre la cantidad de lluvia que cayó en esta zona durante 2019. Mi conocimiento se limita a las estimaciones de cultivos basadas en imágenes satelitales Sentinel-2 y los datos del modelo TSViT."
+  }
+]

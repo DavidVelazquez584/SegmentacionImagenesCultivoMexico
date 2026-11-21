@@ -1,0 +1,101 @@
+[
+  {
+    "n": 1,
+    "parche": 40173,
+    "pregunta": "¿Cuántas hectáreas son de maíz?",
+    "criterio": "número exacto de ha de maíz",
+    "pasa": true,
+    "segundos": 5.9,
+    "respuesta": "En este parche, el modelo predijo **102.14 hectáreas de maíz**. Es la clase más extensa con confianza media de **0.971**."
+  },
+  {
+    "n": 2,
+    "parche": 40173,
+    "pregunta": "Sin contar el fondo, ¿qué cultivo domina el parche?",
+    "criterio": "nombra el maíz",
+    "pasa": true,
+    "segundos": 0.9,
+    "respuesta": "El cultivo que domina el parche, **sin contar el fondo**, es el **maíz**, con **102.14 hectáreas predichas** (62.34 % del área total analizada)."
+  },
+  {
+    "n": 3,
+    "parche": 40173,
+    "pregunta": "¿Cuántas hectáreas de oleaginosas hay?",
+    "criterio": "total de oleaginosas",
+    "pasa": true,
+    "segundos": 0.9,
+    "respuesta": "En este parche hay **37.63 hectáreas de oleaginosas** (girasol, soya y colza). Las reales son **36.54 hectáreas**."
+  },
+  {
+    "n": 4,
+    "parche": 40173,
+    "pregunta": "¿Cuál es el precio del maíz por tonelada en Francia?",
+    "criterio": "dice que no lo sabe",
+    "pasa": true,
+    "segundos": 2.5,
+    "respuesta": "No puedo proporcionarte precios del mercado del maíz en Francia, ya que este análisis solo incluye datos de clasificación de cultivos mediante imágenes satelitales.\n\n**Lo que sí puedo darte:**\n- **Hectáreas de maíz predichas:** 102.14\n- **Confianza media en su predicción:** 0.971\n- **Índice de intersección (IoU) en este parche:** 0.936\n\nSi necesitas datos económicos, te recomiendo consultar fuentes especializadas en agricultura o mercados locales."
+  },
+  {
+    "n": 5,
+    "parche": 10530,
+    "pregunta": "¿Cuántas hectáreas de trigo blando de invierno predice el modelo y cuántas hay en realidad?",
+    "criterio": "ha predichas y reales",
+    "pasa": true,
+    "segundos": 1.3,
+    "respuesta": "En este parche, el modelo predice **86.75 hectáreas** de trigo blando de invierno.\nEn realidad, hay **80.71 hectáreas** de esa clase."
+  },
+  {
+    "n": 6,
+    "parche": 10530,
+    "pregunta": "¿Qué tan seguro está el modelo en este parche?",
+    "criterio": "confianza global exacta",
+    "pasa": true,
+    "segundos": 2.4,
+    "respuesta": "El modelo tiene una **confianza media global de 0.958** en este parche, lo que indica una alta seguridad en sus predicciones.\n\nEn detalle:\n- **Clases con confianza > 0.95**: Trigo blando, papa, remolacha, maíz y colza de invierno.\n- **Pradera** tiene confianza de **0.864** (aún alta, pero no en rango de máxima seguridad).\n- **Forraje leguminoso** es una clase débil (confianza de **0.465**), por lo que su predicción no es confiable."
+  },
+  {
+    "n": 7,
+    "parche": 10530,
+    "pregunta": "¿Cuántas hectáreas de cereales de grano hay?",
+    "criterio": "total de cereales",
+    "pasa": true,
+    "segundos": 0.7,
+    "respuesta": "En este parche, el modelo predijo **86.75 hectáreas** de cereales de grano. Las reales fueron **80.71 ha**."
+  },
+  {
+    "n": 8,
+    "parche": 20392,
+    "pregunta": "¿Cuántas hectáreas de frutas, hortalizas y flores hay?",
+    "criterio": "número exacto + advertencia de clase débil",
+    "pasa": true,
+    "segundos": 1.8,
+    "respuesta": "En este parche hay **30.61 hectáreas** de frutas, hortalizas y flores según la referencia real. El modelo predijo **28.56 hectáreas**, con una confianza media de **0.868** y esta clase está marcada como *débil* (IoU: **0.561**)."
+  },
+  {
+    "n": 9,
+    "parche": 20392,
+    "pregunta": "¿Qué IoU tiene el trigo duro de invierno en este parche?",
+    "criterio": "IoU exacto",
+    "pasa": true,
+    "segundos": 0.8,
+    "respuesta": "En este parche, el **IoU (Intersection over Union)** del **trigo duro de invierno** es **0.709**."
+  },
+  {
+    "n": 10,
+    "parche": 20392,
+    "pregunta": "¿Cuánta lluvia cayó en esta zona en 2019?",
+    "criterio": "dice que no lo sabe",
+    "pasa": true,
+    "segundos": 1.3,
+    "respuesta": "No puedo proporcionar datos de precipitación como lluvia caída en este análisis satelital. Este parche solo muestra cultivos y su clasificación basada en imágenes de satélite Sentinel-2, sin información meteorológica.\n\nSi necesitas datos de lluvia, te recomiendo consultar fuentes como **Copernicus Climate Change Service** o **servicios meteorológicos locales**."
+  },
+  {
+    "n": 11,
+    "parche": 40173,
+    "pregunta": "Si vendiera todo el maíz, ¿cuánto dinero podría generar en México?",
+    "criterio": "no inventa precios, rendimientos ni montos",
+    "pasa": true,
+    "segundos": 2.4,
+    "respuesta": "No puedo calcular ingresos económicos con los datos satelitales de este análisis. En este parche, el modelo predijo **102.14 ha de maíz**, pero no hay información sobre precios por tonelada, rendimiento por hectárea ni mercado local.\n\nSi necesitas datos de producción agrícola en México, consulta fuentes oficiales como el **Sistema Nacional de Información Agropecuaria (SINA)** o la **Secretaría de Agricultura y Ganadería (SAGARPA)**. Aquí solo puedo ofrecerte las hectáreas estimadas por el modelo."
+  }
+]

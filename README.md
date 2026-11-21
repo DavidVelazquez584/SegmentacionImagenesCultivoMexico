@@ -94,3 +94,14 @@ Repositorio externo base:
 ```bash
 git clone https://github.com/michaeltrs/DeepSatModels.git third_party/DeepSatModels
 ```
+
+## Avances 6 y 7 y aplicación Koré
+
+| Contenido | Ubicación |
+|---|---|
+| Avance 6: segmentación espacio-temporal con U-TAE | `notebooks/Avance6_UTAE_PASTIS_v2.ipynb` |
+| Avance 7: comparación U-TAE vs TSViT (pesos oficiales y desde cero) | `notebooks/Avance7_TSViT_vs_UTAE.ipynb`, `scripts/avance7/` |
+| Historiales de entrenamiento y matrices de confusión | `reports/metrics/avance6_utae/`, `reports/metrics/avance7_tsvit/` |
+| Koré: segmentación en vivo con TSViT y asistente conversacional | `app/kore/` (ver su [README](app/kore/README.md)) |
+
+Resultados en el fold 5 (496 parches de prueba): TSViT desde cero, mIoU 0.6587; TSViT con pesos oficiales, 0.6509; U-TAE, 0.6424.
