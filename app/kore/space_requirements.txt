@@ -1,0 +1,6 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.5.1+cpu
+numpy>=2.0,<3
+pandas>=2.2
+einops==0.8.2
+anthropic==2.8.0

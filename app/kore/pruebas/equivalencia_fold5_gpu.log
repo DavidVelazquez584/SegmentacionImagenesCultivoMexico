@@ -1,0 +1,15 @@
+﻿Dispositivo: cuda | precisión: torch.bfloat16 | checkpoint época 57
+50/496 parches | 1.70 s/parche
+100/496 parches | 1.70 s/parche
+150/496 parches | 1.70 s/parche
+200/496 parches | 1.71 s/parche
+250/496 parches | 1.74 s/parche
+300/496 parches | 1.73 s/parche
+350/496 parches | 1.73 s/parche
+400/496 parches | 1.73 s/parche
+450/496 parches | 1.73 s/parche
+
+Módulo:   Acc 0.8378 | Macro F1 0.7807 | mIoU 0.6587
+Notebook: Acc 0.8378 | Macro F1 0.7807 | mIoU 0.6587  (mismos 496 parches)
+Parches con matriz idéntica: 496/496 | píxeles distintos: total 0, máximo por parche 0
+Tiempo medio: 1.73 s/parche (incluye lectura del disco)
